@@ -270,18 +270,18 @@ h1 {
 
 .about {
   display: grid;
-  grid-template-columns: minmax(260px, 0.7fr) minmax(0, 1.3fr);
-  gap: clamp(28px, 5vw, 64px);
+  grid-template-columns: minmax(210px, 0.45fr) minmax(0, 1.55fr);
+  gap: clamp(24px, 4vw, 48px);
   align-items: center;
   background: var(--white);
 }
 
 .about-photo {
   overflow: hidden;
-  max-width: 420px;
+  max-width: 280px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  box-shadow: var(--shadow);
+  box-shadow: 0 16px 42px rgba(23, 32, 38, 0.1);
 }
 
 .about-photo img {
@@ -511,7 +511,7 @@ h2 {
   }
 
   .about-photo {
-    max-width: 360px;
+    max-width: 260px;
   }
 
   .service-grid,
